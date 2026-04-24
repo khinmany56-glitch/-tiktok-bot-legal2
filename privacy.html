@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="tiktok-domain-verification" content="ใส่โค้ดจาก TikTok ตรงนี้">
+<title>Privacy Policy</title>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; max-width: 700px; margin: 60px auto; padding: 0 24px; color: #333; line-height: 1.8; }
+  h1 { font-size: 28px; margin-bottom: 8px; }
+  h2 { font-size: 18px; margin-top: 32px; color: #555; }
+  p  { margin-top: 8px; color: #666; }
+  ul { color: #666; padding-left: 20px; margin-top: 8px; }
+  li { margin-bottom: 4px; }
+  .date { color: #999; font-size: 13px; margin-bottom: 32px; }
+  code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 13px; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy</h1>
+<div class="date">Last updated: April 2026</div>
+
+<h2>1. Introduction</h2>
+<p>This Privacy Policy explains how this personal content automation application handles your information when you authorize it to access your TikTok account.</p>
+
+<h2>2. Information We Collect</h2>
+<p>We collect only the minimum information required to operate the application:</p>
+<ul>
+  <li><strong>TikTok OAuth Token</strong> — stored locally on your device to authenticate API requests</li>
+  <li><strong>TikTok Open ID</strong> — a non-identifiable user identifier provided by TikTok</li>
+</ul>
+<p>We do <strong>not</strong> collect your name, email address, phone number, password, or any personal profile information.</p>
+
+<h2>3. How We Use Your Information</h2>
+<p>The OAuth token is used solely to:</p>
+<ul>
+  <li>Upload video files to your TikTok account via the Content Posting API</li>
+  <li>Check the publish status of uploaded videos</li>
+</ul>
+
+<h2>4. Data Storage</h2>
+<p>All data is stored <strong>locally on your own device</strong> in the file <code>tiktok_token.json</code>. No data is transmitted to any external server other than TikTok's official API endpoints.</p>
+
+<h2>5. Data Sharing</h2>
+<p>We do <strong>not</strong> sell, trade, or share your data with any third parties. Your TikTok credentials are never shared outside of TikTok's official API.</p>
+
+<h2>6. TikTok API Permissions</h2>
+<p>This application requests the following TikTok API scopes:</p>
+<ul>
+  <li><code>video.upload</code> — to upload video files</li>
+  <li><code>video.publish</code> — to publish videos to your account</li>
+</ul>
+<p>You can revoke these permissions at any time from your TikTok account settings under <strong>Security &gt; Manage app permissions</strong>.</p>
+
+<h2>7. Data Retention</h2>
+<p>The OAuth token is retained locally until you explicitly log out or delete the <code>tiktok_token.json</code> file. Tokens automatically expire as defined by TikTok's API policy.</p>
+
+<h2>8. Your Rights</h2>
+<p>You have the right to:</p>
+<ul>
+  <li>Revoke API access at any time via TikTok's app settings</li>
+  <li>Delete your locally stored token by removing <code>tiktok_token.json</code></li>
+  <li>Request information about what data is stored</li>
+</ul>
+
+<h2>9. Changes to This Policy</h2>
+<p>This policy may be updated occasionally. The "Last updated" date at the top of this page will reflect any changes.</p>
+
+<h2>10. Contact</h2>
+<p>If you have questions about this Privacy Policy, please contact the application owner directly.</p>
+
+</body>
+</html>
